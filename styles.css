@@ -74,6 +74,19 @@ div > ul {
 }
 
 .button-box > button {
+  background: linear-gradient(hsl(60, 100%, 60%), hsl(60, 100%, 35%));
+  border-radius: 5px;
   width: 65%;
+  height: 2.2em;
   margin: 1ch;
+}
+
+.button-box > button:hover {
+  background: linear-gradient(hsl(60, 100%, 35%), hsl(60, 100%, 60%));
+}
+
+.button-box > button:active {
+  border: 2px solid hsl(60, 100%, 35%);
+  color: hsl(60, 100%, 60%);
+  background: black;
 }
