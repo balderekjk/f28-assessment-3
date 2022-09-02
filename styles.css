@@ -4,35 +4,65 @@ body {
   padding: 1rem;
   max-width: 500px;
   margin: 2rem auto;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.content-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-body > img,
+div {
+  margin: 6px;
 }
 
 nav {
-	border-bottom: 2px solid orange;
+  border-bottom: 2px solid orange;
 }
 
 ol {
-	padding-left: 0;
+  padding-left: 0;
 }
 
 .crumb {
-	margin-right: 2em;
-	display: inline;
+  margin-right: 2em;
+  display: inline;
 }
 
 a {
-	color: orange;
+  color: orange;
 }
 
 a:visited {
-	color: crimson;
+  color: crimson;
 }
 
-
 input {
-	display: block;
+  display: block;
 }
 
 img {
-	max-width: 300px;
+  max-width: 300px;
+}
+
+.main-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main-info > div {
+  width: 225px;
+  border: 1px solid blue;
+}
+
+div > h2 {
+  text-align: center;
+}
+
+div > ul {
+  margin-right: 3ch;
+  font-size: 0.8rem;
 }
