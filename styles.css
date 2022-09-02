@@ -55,7 +55,6 @@ img {
 
 .main-info > div {
   width: 225px;
-  border: 1px solid blue;
 }
 
 div > h2 {
@@ -65,4 +64,16 @@ div > h2 {
 div > ul {
   margin-right: 3ch;
   font-size: 0.8rem;
+}
+
+.button-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-box > button {
+  width: 65%;
+  margin: 1ch;
 }
